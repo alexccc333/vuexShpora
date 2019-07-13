@@ -3,7 +3,7 @@ import Vuex from 'vuex';
 import todos from './modules/todos';
 
 
-Vue.use('Vuex');    
+Vue.use(Vuex);    
 
 //Load Vuex
 

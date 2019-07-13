@@ -1,10 +1,12 @@
-import Vuex from 'vuex';
 import Vue from 'vue';
-import todos from './modules/todos'
+import Vuex from 'vuex';
+import todos from './modules/todos';
 
+
+Vue.use('Vuex');    
 
 //Load Vuex
-Vue.use('vuex');
+
 
 //Create store
 
